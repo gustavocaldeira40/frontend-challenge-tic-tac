@@ -1,10 +1,16 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 
-import './styles.css';
-import Game from './Game';
+import { GlobalStyle } from './components';
+
+import Game from './pages/Game';
 
 const App: FC = () => {
-    return <Game />;
+    return (
+        <>
+            <GlobalStyle />
+            <Game />
+        </>
+    );
 };
 
 export default App;

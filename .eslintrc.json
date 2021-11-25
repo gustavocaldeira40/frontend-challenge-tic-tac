@@ -64,6 +64,10 @@
         "no-restricted-globals": "off",
         "no-plusplus": "off",
         "react/display-name": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            { "devDependencies": true }
+        ],
         "react/function-component-definition": [
             2,
             {
