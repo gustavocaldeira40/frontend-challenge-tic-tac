@@ -164,7 +164,7 @@ const Game: FC = () => {
                                     {winner ? (
                                         <>
                                             <TextWinner isBold>
-                                                O ganhador é:
+                                                The winner is:
                                             </TextWinner>
                                             <TextWinner>
                                                 {winner >= 0 ? 'O' : 'X'}
@@ -172,19 +172,19 @@ const Game: FC = () => {
                                         </>
                                     ) : (
                                         <TextWinner isBold>
-                                            Houve um empate
+                                            There was a tie
                                         </TextWinner>
                                     )}
                                 </ContainerTexts>
                                 <ButtonReset type="reset" onClick={reset}>
-                                    Reininciar
+                                    Restart
                                 </ButtonReset>
                             </ContainerInformationGame>
                         </>
                     )}
                 </ContainerFields>
                 <ButtonReset type="reset" onClick={reset}>
-                    Reininciar
+                    Restart
                 </ButtonReset>
             </ContainerPlay>
         </Container>
