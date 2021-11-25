@@ -9,22 +9,22 @@
 
 <!--ts-->
 
-- [Primeiros passos](#primeiros-passos)
-- [Branchs](#branchs)
-  - [`master`:](#master)
-- [🚀 Como executar o projeto](#-como-executar-o-projeto)
-  - [Pré-requisitos](#pré-requisitos)
-    - [🧭 Rodando a aplicação web (Frontend)](#-rodando-a-aplicação-web-frontend)
-- [🛠 Tecnologias](#-tecnologias)
-  - [WebSite](#website-react--typescript)
-- [⚙️ Funcionalidades](#️-funcionalidades)
-- [🦸 Autores](#-autores)
-- [📝 Licença](#-licença)
+-   [Primeiros passos](#primeiros-passos)
+-   [Branchs](#branchs)
+    -   [`master`:](#master)
+-   [🚀 Como executar o projeto](#-como-executar-o-projeto)
+    -   [Pré-requisitos](#pré-requisitos)
+        -   [🧭 Rodando a aplicação web (Frontend)](#-rodando-a-aplicação-web-frontend)
+-   [🛠 Tecnologias](#-tecnologias)
+    -   [WebSite](#website-react--typescript)
+-   [⚙️ Funcionalidades](#️-funcionalidades)
+-   [🦸 Autores](#-autores)
+-   [📝 Licença](#-licença)
 <!--te-->
 
 ## Primeiros passos
 
-- Leia a parte de <a href="#branchs">Branchs</a>
+-   Leia a parte de <a href="#branchs">Branchs</a>
 
 ---
 
@@ -32,14 +32,15 @@
 
 #### `master`:
 
-- Nunca faça `commit` na `branch master`.
-- Nunca faça nada nessa `branch`.
+-   Nunca faça `commit` na `branch master`.
+-   Nunca faça nada nessa `branch`.
 
 ## 🚀 Como executar o projeto
 
 Este projeto é contém:
 
 1. Frontend
+
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: • [Git](https://git-scm.com/downloads), • [Node.js LTS](https://nodejs.org/en/download/), • [Yarn](https://yarnpkg.com/getting-started/install).
@@ -69,11 +70,11 @@ $ yarn start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
+#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)) + [Eslint](https://eslint.org/)) + [Prettier](https://prettier.io/)) + [Husky](https://typicode.github.io/husky/#/))
 
-- **[React Icons](https://react-icons.github.io/react-icons/)**
-- **[Styled-components](https://github.com/styled-components/styled-components)**
-- **[React Hook Form](https://react-hook-form.com/)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Styled-components](https://github.com/styled-components/styled-components)**
+-   **[React Hook Form](https://react-hook-form.com/)**
 
 > Veja o arquivo [package.json](https://github.com/startecsoftware/viaje-aqui-web/blob/master/package.json)
 
