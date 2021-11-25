@@ -70,7 +70,7 @@ $ yarn start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)) + [Eslint](https://eslint.org/)) + [Prettier](https://prettier.io/)) + [Husky](https://typicode.github.io/husky/#/))
+#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Eslint](https://eslint.org/) + [Prettier](https://prettier.io/) + [Husky](https://typicode.github.io/husky/#/))
 
 -   **[React Icons](https://react-icons.github.io/react-icons/)**
 -   **[Styled-components](https://github.com/styled-components/styled-components)**
