@@ -32,11 +32,11 @@ Agora que teremos a nossa aplicação funcionando de volta, é muito importante 
 
 Para auxiliar nesta implementação, seguem alguns casos de teste que queremos garantir:
 
-- Partida com ❌ sendo vencedor
-- Partida com ⭕ sendo vencedor
-- Partida com empate
-- Garantir que o estado do tabuleiro não muda ao clicar duas vezes em um mesmo bloco
-- São bem vindos quaisquer outros testes que achar que podem adicionar valor
+-   Partida com ❌ sendo vencedor
+-   Partida com ⭕ sendo vencedor
+-   Partida com empate
+-   Garantir que o estado do tabuleiro não muda ao clicar duas vezes em um mesmo bloco
+-   São bem vindos quaisquer outros testes que achar que podem adicionar valor
 
 # Sobre a entrega
 

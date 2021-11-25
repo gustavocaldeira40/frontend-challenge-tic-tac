@@ -1,6 +1,10 @@
-import "./styles.css";
-import Game from "./Game";
+import { FC } from 'react';
 
-export default function App() {
-  return <Game />;
-}
+import './styles.css';
+import Game from './Game';
+
+const App: FC = () => {
+    return <Game />;
+};
+
+export default App;

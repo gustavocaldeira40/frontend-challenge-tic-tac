@@ -2,30 +2,30 @@
  * Obs: O controle de estado principal da aplicação deve ser mantido neste hook
  */
 
-import { useState } from "react";
+import React, { useState } from 'react';
 
-type Player = 'X' | 'O'
+type Player = 'X' | 'O';
 
-let nextPlayer: Player = 'X';
-let currentBoard = Array(9).fill(null);
+const nextPlayer: Player = 'X';
+const currentBoard = Array(9).fill(null);
 const useGameState = () => {
-  const [stepNumber, setStepNumber] = useState(0);
+    const [stepNumber, setStepNumber] = useState(0);
 
-  const computeMove = (nextPlayer: Player, squareId: any) => {
-    if (nextPlayer === 'X') {
-      nextPlayer = 'O'
-    } else {
-      nextPlayer = 'X'
-    }
-    setStepNumber((currentStepNumber) => currentStepNumber + 1);
-  }
+    const computeMove = (nextPlayer: Player, squareId: any) => {
+        if (nextPlayer === 'X') {
+            nextPlayer = 'O';
+        } else {
+            nextPlayer = 'X';
+        }
+        setStepNumber((currentStepNumber) => currentStepNumber + 1);
+    };
 
-  return {
-    nextPlayer,
-    stepNumber,
-    currentBoard,
-    computeMove
-  }
-}
+    return {
+        nextPlayer,
+        stepNumber,
+        currentBoard,
+        computeMove,
+    };
+};
 
 export default useGameState;

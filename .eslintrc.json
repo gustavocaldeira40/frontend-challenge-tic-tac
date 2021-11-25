@@ -1,0 +1,100 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript",
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+    "rules": {
+        "import/no-unresolved": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
+        "react-hooks/rules-of-hooks": "error",
+        "import/no-duplicates": "error",
+        "import/extensions": "off",
+        "import/prefer-default-export": "off",
+        "no-unused-vars": "off",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/jsx-props-no-spreading": "off",
+        // suppress errors for missing 'import React' in files
+        "react/react-in-jsx-scope": "off",
+        // allow jsx syntax in js files (for next.js project)
+        "react/jsx-filename-extension": [
+            "error",
+            { "extensions": [".js", ".jsx", ".tsx", ".ts"] }
+        ],
+        "react/prop-types": "off",
+        "react/require-default-props": "off",
+        "no-param-reassign": "off",
+        "global-require": "off",
+        "no-console": "off",
+        "no-alert": "off",
+        "no-nested-ternary": "off",
+        "react/no-array-index-key": "off",
+        "camelcase": "off",
+        "react/jsx-curly-newline": "off",
+        "react/jsx-wrap-multilines": "off",
+        "no-shadow": "off",
+        "no-restricted-globals": "off",
+        "no-plusplus": "off",
+        "react/display-name": "off",
+        "react/function-component-definition": [
+            2,
+            {
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
+            }
+        ],
+        "jsx-a11y/label-has-associated-control": [
+            "error",
+            {
+                "required": {
+                    "some": ["nesting", "id"]
+                }
+            }
+        ],
+        "jsx-a11y/label-has-for": [
+            "error",
+            {
+                "required": {
+                    "some": ["nesting", "id"]
+                }
+            }
+        ]
+    },
+
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"],
+                "moduleDirectory": ["node_modules", "src/"]
+            }
+        }
+    }
+}
