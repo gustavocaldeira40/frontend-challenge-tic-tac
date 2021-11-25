@@ -1,46 +1,97 @@
-Projeto base disponível no CodeSandbox
+<h1 align="center">TIC-TAC</h1>
+<p align="center">Frontend Web do TIC-TAC feito em React com TypeScript</p>
 
-[![Edit tic-tac-liven-frontend-challenge](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/tic-tac-liven-frontend-challenge-b5bej?fontsize=14&hidenavigation=1&theme=dark)
+<h4 align="center">
+	🚧  Finalizado...  🚧
+</h4>
 
-# Introdução
+## Tabela de conteúdos
 
-TIC-TAC-TOE (popularmente conhecido como o [jogo da velha](https://pt.wikipedia.org/wiki/Jogo_da_velha)) é um jogo simples que deve ser jogado por dois jogadores. O jogador que conseguir marcar 3 blocos na vertical, horizontal ou diagonal, é o vencedor.
+<!--ts-->
 
-É conhecido por ser um [Jogo Resolvido](https://pt.wikipedia.org/wiki/Jogo_resolvido). Ou seja, assumindo que os dois jogadores conheçam as regras e joguem perfeitamente, sempre teremos um empate.
+- [Primeiros passos](#primeiros-passos)
+- [Branchs](#branchs)
+  - [`master`:](#master)
+- [🚀 Como executar o projeto](#-como-executar-o-projeto)
+  - [Pré-requisitos](#pré-requisitos)
+    - [🧭 Rodando a aplicação web (Frontend)](#-rodando-a-aplicação-web-frontend)
+- [🛠 Tecnologias](#-tecnologias)
+  - [WebSite](#website-react--typescript)
+- [⚙️ Funcionalidades](#️-funcionalidades)
+- [🦸 Autores](#-autores)
+- [📝 Licença](#-licença)
+<!--te-->
 
-# O desafio
+## Primeiros passos
 
-![win.gif](win.gif)
+- Leia a parte de <a href="#branchs">Branchs</a>
 
-_Exemplo de partida com vitória do jogador **X** no TIC-TAC-LIVEN funcionando normalmente_
+---
 
-Recentemente realizamos o lançamento da nossa versão do jogo da velha (TIC-TAC-LIVEN). Infelizmente, uma alteração posterior inseriu um bug indesejado na aplicação ao mesmo tempo que recebemos feedbacks dos nossos jogadores que nos trouxeram insights de novas funcionalidades. Isso tudo somado à ausência de algumas boas práticas de qualidade (como testes automatizados) nos deixou diversos desafios para você solucionar. Sendo assim, o seu trabalho será dividido em 3 partes.
+## Branchs
 
-## 1. Consertar a implementação 🛠️
+#### `master`:
 
-No momento, o jogo não está mais funcionando corretamente por causa de um bug relacionado ao gerenciamento de estado da aplicação. O seu desafio é **encontrar o bug e consertá-lo** de modo que as partidas voltem a funcionar, tanto para partidas com vencedores quanto empates.
+- Nunca faça `commit` na `branch master`.
+- Nunca faça nada nessa `branch`.
 
-Após a realização deste passo, esperamos que os jogadores possam realizar partidas no TIC-TAC-LIVEN normalmente, como nos GIFs.
+## 🚀 Como executar o projeto
 
-## 2. Incremento de funcionalidades 🚩
+Este projeto é contém:
 
-O lançamento do **TIC-TAC-LIVEN** foi um grande sucesso! Os jogadores gostaram tanto que após apuração dos nossos _Product Owners_, a funcionalidade mais requisitada foi a possibilidade de jogar novamente ao final de uma partida. Sendo assim, o seu desafio é **permitir que o usuário reinicie o tabuleiro** (caso ele deseje) assim que uma partida chegar ao fim. Lembrando que no TIC-TAC-LIVEN, cada partida sempre alterna o jogador inicial (ou seja, se na partida atual o ❌ iniciou a partida, na seguinte o ⭕ iniciará).
+1. Frontend
+### Pré-requisitos
 
-## 3. Qualidade de código e testes automatizados 🧪
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: • [Git](https://git-scm.com/downloads), • [Node.js LTS](https://nodejs.org/en/download/), • [Yarn](https://yarnpkg.com/getting-started/install).
 
-Agora que teremos a nossa aplicação funcionando de volta, é muito importante reduzirmos a chance de novos bugs surgirem em produção. Para este ponto, consideraremos a **adição de Typings corretos para análise estática da aplicação**, e **melhorar a implementação dos testes automatizados**, para garantir que a implementação da aplicação funciona em alguns cenários
+<p>Além disto é bom ter um editor para trabalhar com o código como <a href="https://code.visualstudio.com/" target="_blank">VSCode</a></p>
 
-Para auxiliar nesta implementação, seguem alguns casos de teste que queremos garantir:
+#### 🧭 Rodando a aplicação web (Frontend)
 
--   Partida com ❌ sendo vencedor
--   Partida com ⭕ sendo vencedor
--   Partida com empate
--   Garantir que o estado do tabuleiro não muda ao clicar duas vezes em um mesmo bloco
--   São bem vindos quaisquer outros testes que achar que podem adicionar valor
+```bash
 
-# Sobre a entrega
+# Clone este repositório
+$ git clone https://github.com/startecsoftware/viaje-aqui-web.git
 
-1. **Estimativa de tempo para entrega**: O primeiro ponto de entrega deste projeto é o próprio tempo de estimativa para a entrega final do projeto.
-2. **Implementação**: O repositório deverá ser entregue para avaliação da estrutura do projeto. Por isso, quaisquer pontos de documentação/comentários em código são bem vindos, e o histórico de commits do GIT também será avaliado
+# Instale as dependências
+$ yarn / npm install
 
-**Boa sorte! 🍀**
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
+
+- **[React Icons](https://react-icons.github.io/react-icons/)**
+- **[Styled-components](https://github.com/styled-components/styled-components)**
+- **[React Hook Form](https://react-hook-form.com/)**
+
+> Veja o arquivo [package.json](https://github.com/startecsoftware/viaje-aqui-web/blob/master/package.json)
+
+---
+
+## 🦸 Autores
+
+<a href="https://github.com/kalangoti">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/gustavocaldeira40" width="100px;" alt="avatar de Gustavo Henrique Caldeira"/>
+</a>
+
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/gustavocaldeira40)](https://github.com/gustavocaldeira40)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gustavo-henrique-a51889116/)](https://www.linkedin.com/in/gustavo-henrique-a51889116/)
+[![Whatsapp Badge](https://img.shields.io/badge/-Whatsapp-4CA143?style=flat-square&labelColor=4CA143&logo=whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=seu_telefone_55+DDD+15+988282510&text=Hello!)](https://api.whatsapp.com/send?phone=seu_telefone_55+15+988282510&text=Hello!)
+[![Gmail Badge](https://img.shields.io/badge/-Outlook-c14438?style=flat-square&logo=Outlook&logoColor=white&link=mailto:gustavo.caldeira.7@outlook.com)](mailto:gustavo.caldeira.7@outlook.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
